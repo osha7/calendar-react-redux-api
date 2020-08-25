@@ -1,6 +1,6 @@
 Terminal commands:
 
-Building Backend:
+-----------------Backend:--------------------
 
 cd Develompement
 cd [folder-name]
@@ -13,7 +13,7 @@ rails db:create
 (run rails s and rails c to make sure app running and db connected)
 (check postgres app to ensure you development db and test db and they are up and running)
 
-front-end:
+---------------front-end:------------------------
 
 npm install -g npm
 ^^ newest version of Node Package Manager ^^
@@ -25,7 +25,7 @@ code .
 npm install
 npm start
 
---------------cors---------------
+--------------CORS---------------
 in backend:
 
 Gemfile:
@@ -47,4 +47,8 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
   end
 end
 
+------------------GITHUB----------------------------
+
+Create new github repos for each
+merge local files to github repos
 
